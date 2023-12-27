@@ -22,6 +22,15 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "additionalProperties": false,
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "e5945a92-7dc7-4795-8378-ee1dc6d6212a",
+                        "referenceDiffDeleted": true
+                    }
+                ]
             }
         }
     ],
@@ -306,16 +315,16 @@
             "normalization": true
         }
     ],
-    "lastModifTS": "2023-11-06T10:51:46.042Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-27T16:29:40.967Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "DeltaLake",
-        "pluginVersion": "0.1.107",
+        "pluginVersion": "0.1.113",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.8"
+        "version": "7.0.5"
     },
     "hackoladeMeta": {},
     "settings": {
