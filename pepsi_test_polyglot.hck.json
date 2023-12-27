@@ -1,0 +1,276 @@
+{
+    "modelName": "pepsi_test_polyglot",
+    "collections": [
+        {
+            "collectionName": "planning_error_tbl",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "tbl_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "f29f04b3-1cdd-4436-afa0-c7abd5a64611",
+                    "error": {}
+                },
+                {
+                    "name": "query",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "2ab65488-6273-41e5-9a65-3f93b23d8d2d",
+                    "error": {}
+                },
+                {
+                    "name": "error",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "630752b9-9cfd-4325-8ea5-56c0a6f7c94c",
+                    "error": {}
+                },
+                {
+                    "name": "ap_cOl_CHANGE",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "150a0c51-3fc3-46b9-8a52-d07cd992eb71",
+                    "error": {}
+                },
+                {
+                    "name": "Col_test",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "7501cddd-0c42-44be-a041-b8558f2a395f",
+                    "error": {}
+                },
+                {
+                    "name": "name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "0687e98d-5a7f-450b-b2f7-5f71d1bdf84f",
+                    "error": {}
+                },
+                {
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "alternateKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "e5945a92-7dc7-4795-8378-ee1dc6d6212a",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a9a32e65-c75b-45b6-9453-8871219f3da9"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "466526f9-5570-4f15-bb90-c5359fcb3a2e",
+            "bucketId": "ac3f2d27-248c-43b1-98e2-865aa9582c1d"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "planning",
+            "type": "bucket",
+            "collectionIds": [
+                "466526f9-5570-4f15-bb90-c5359fcb3a2e"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "ac3f2d27-248c-43b1-98e2-865aa9582c1d"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "ac3f2d27-248c-43b1-98e2-865aa9582c1d": "planning",
+        "466526f9-5570-4f15-bb90-c5359fcb3a2e": "planning_error_tbl",
+        "f29f04b3-1cdd-4436-afa0-c7abd5a64611": "tbl_name",
+        "2ab65488-6273-41e5-9a65-3f93b23d8d2d": "query",
+        "630752b9-9cfd-4325-8ea5-56c0a6f7c94c": "error",
+        "150a0c51-3fc3-46b9-8a52-d07cd992eb71": "ap_cOl_CHANGE",
+        "7501cddd-0c42-44be-a041-b8558f2a395f": "Col_test",
+        "0687e98d-5a7f-450b-b2f7-5f71d1bdf84f": "name",
+        "e5945a92-7dc7-4795-8378-ee1dc6d6212a": "last_name"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "8ae0ec60-ad2b-480a-acf1-1e7c20712f42"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "b4656832-4596-4c57-9d2f-47a3eabe5e04"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "6dc1c230-1346-4925-91c8-1ef724e44fdb"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-11-03T07:03:56.279Z",
+    "GUID": "296200b7-040e-4873-bb34-1bfe4f96854c",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-11-03T07:06:50.604Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.11.7"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "466526f9-5570-4f15-bb90-c5359fcb3a2e",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 225,
+                        "height": 159,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1040,
+                        "y": 1040,
+                        "GUID": "ac3f2d27-248c-43b1-98e2-865aa9582c1d"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "466526f9-5570-4f15-bb90-c5359fcb3a2e",
+                            "size": 100,
+                            "x": 1080,
+                            "y": 1080
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1040,
+                            "y": 1040,
+                            "GUID": "ac3f2d27-248c-43b1-98e2-865aa9582c1d"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

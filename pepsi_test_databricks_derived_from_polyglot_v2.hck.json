@@ -1,0 +1,386 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "GUID": "0eb9e575-5964-4e39-b245-0d49de5b7943",
+            "type": "reference",
+            "$ref": "#external/definitions/planning_error_tbl",
+            "refType": "polyglot",
+            "ref": "466526f9-5570-4f15-bb90-c5359fcb3a2e",
+            "refIdPath": [
+                "86b29576-1b41-4c91-bc88-1d25e6e58da2",
+                "3ee965e8-9231-46ce-8e01-d1f16bc22921",
+                "466526f9-5570-4f15-bb90-c5359fcb3a2e"
+            ],
+            "isActivated": true,
+            "collectionName": "planning_error_tbl",
+            "bucketId": "50812ff0-636d-4eb5-adee-82af4753bc86",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "a3f55a68-0c73-4b95-a9c0-dc6157c6190b"
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "e5945a92-7dc7-4795-8378-ee1dc6d6212a",
+                        "referenceDiffDeleted": true
+                    }
+                ]
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "50812ff0-636d-4eb5-adee-82af4753bc86",
+            "name": "planning",
+            "type": "reference",
+            "$ref": "#external/definitions/planning",
+            "refType": "polyglot",
+            "ref": "ac3f2d27-248c-43b1-98e2-865aa9582c1d",
+            "refIdPath": [
+                "86b29576-1b41-4c91-bc88-1d25e6e58da2",
+                "3ee965e8-9231-46ce-8e01-d1f16bc22921",
+                "ac3f2d27-248c-43b1-98e2-865aa9582c1d"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "0eb9e575-5964-4e39-b245-0d49de5b7943"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "0eb9e575-5964-4e39-b245-0d49de5b7943": "planning_error_tbl",
+        "50812ff0-636d-4eb5-adee-82af4753bc86": "planning"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "51685c2c-54b9-4c84-a1ce-68ecef82c5b1"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "collectionName": "planning_error_tbl",
+                "type": "object",
+                "properties": [
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "tbl_name",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "f29f04b3-1cdd-4436-afa0-c7abd5a64611",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "query",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "2ab65488-6273-41e5-9a65-3f93b23d8d2d",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "error",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "630752b9-9cfd-4325-8ea5-56c0a6f7c94c",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "ap_cOl_CHANGE",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "150a0c51-3fc3-46b9-8a52-d07cd992eb71",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "Col_test",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "7501cddd-0c42-44be-a041-b8558f2a395f",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "name",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "0687e98d-5a7f-450b-b2f7-5f71d1bdf84f",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "string",
+                        "subtype": "string",
+                        "childType": "text",
+                        "type": "string",
+                        "compositePartitionKey": false,
+                        "compositeClusteringKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "last_name",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "e5945a92-7dc7-4795-8378-ee1dc6d6212a",
+                        "compositeKey": [
+                            "compositePartitionKey",
+                            "compositeClusteringKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "a9a32e65-c75b-45b6-9453-8871219f3da9"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "466526f9-5570-4f15-bb90-c5359fcb3a2e",
+                "bucketId": "ac3f2d27-248c-43b1-98e2-865aa9582c1d",
+                "definitionEntityType": "collection",
+                "link": "pepsi_test_polyglot.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/planning/planning_error_tbl",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "0eb9e575-5964-4e39-b245-0d49de5b7943"
+                    ]
+                ],
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                }
+            },
+            {
+                "name": "planning",
+                "type": "bucket",
+                "collectionIds": [
+                    "466526f9-5570-4f15-bb90-c5359fcb3a2e"
+                ],
+                "backgroundColor": {
+                    "r": 216,
+                    "g": 0,
+                    "b": 115,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "ac3f2d27-248c-43b1-98e2-865aa9582c1d",
+                "definitionEntityType": "bucket",
+                "link": "pepsi_test_polyglot.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/planning",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "50812ff0-636d-4eb5-adee-82af4753bc86"
+                    ]
+                ],
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                }
+            }
+        ],
+        "GUID": "3ee965e8-9231-46ce-8e01-d1f16bc22921"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d601fbd6-1d83-494f-bafc-bad2442e97f3"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "Runtime 13",
+    "dbVendor": "Delta Lake",
+    "appTarget": "DeltaLake",
+    "creationTS": "2023-11-03T07:07:45.331Z",
+    "GUID": "4de1ac30-096e-4137-a26e-ec14184569ff",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [
+        {
+            "GUID": "073aef45-657d-46cd-8453-e4f612ba261c",
+            "polyglotModelName": "pepsi_test_polyglot.hck",
+            "polyglotModelPath": "pepsi_test_polyglot.hck.json",
+            "normalization": true
+        }
+    ],
+    "lastModifTS": "2023-11-06T10:52:22.492Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "DeltaLake",
+        "pluginVersion": "0.1.107",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.11.8"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "0eb9e575-5964-4e39-b245-0d49de5b7943",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 226,
+                        "height": 141,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1040,
+                        "y": 1040,
+                        "GUID": "50812ff0-636d-4eb5-adee-82af4753bc86"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
